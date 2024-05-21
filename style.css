@@ -1,0 +1,45 @@
+:root {
+  --font1: "Roboto", sans-serif;
+  --font2: "Montserrat", sans-serif;
+  --white: #ffffff;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--font1);
+}
+p,
+a,
+li{
+  font-family: var(--font2);
+}
+
+header {
+  height: 30vh;
+  width: 100%;
+  display: grid;
+  text-align: center;
+  place-items: center;
+  color: white;
+  overflow: hidden;
+  background: #4868c0;
+  background: linear-gradient(rgba(74, 77, 232, 0.7), rgba(72, 162, 192, 0.7)),
+    url("images/blockchain-3537389_640.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.togbutton {
+  border: 1px solid var(--white);
+}
+.buttonwide {
+  width: 80%;
+}
